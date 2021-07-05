@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+          body{
+            height: 0px;
+            width:0px;
+            margin:0px;
+            background-color: rgb(216, 212, 212)
+            
+;
+        }
+        .head{
+            display: inline-block;
+            height: 0px;
+            width:1360px;
+            color: white;
+            margin: 0px;
+            
+        }
+        .sidebar ul li a{
+            text-decoration: none;
+            max-height: 1000px;
+            width: 25px;
+            list-style: none;
+            font-size: 15px;
+            color: black;
+            margin: 0px; 
+        }
+        .sidebar ul li a:hover{
+            border-right-color: blue;
+            background: rgb(156, 156, 212);
+        
+        }
+        .container{
+            background-color: 
+#e8e6e6
+        }
+    
+                
+        .sidebar ul li{
+            position: relative;
+            right:36px;
+            bottom: 36px;
+            height: 40px;
+            width:40px;
+            border: 1px solid rgb(248, 246, 246);
+            padding: 35px;
+            list-style-type: none;
+            margin: 0px;
+            background: white;
+        }
+        .sidebar ul{
+            height: 600px;
+            margin-top: 0px;
+            padding-inline-start: 0px;
+            background: white;
+            width:40px;
+            border: 1px solid rgb(248, 246, 246);
+            padding: 35px;
+        }
+
+#inputField {
+    position: relative;
+    left: 350px;
+    bottom: 650px;
+    width: 500px;
+    height: 20px;
+    display: inline-block;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 10px;
+    vertical-align: middle;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.button{
+    appearance: auto;
+}
+
+#upload {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 350px;
+    bottom: 700px;
+    display:inline-block;
+    margin-top: 15px;
+    border: 1px solid black;
+    vertical-align: middle;
+    text-align:center;
+    cursor: pointer;
+    padding: 25px 25px 10px 10px;
+}
+.videos{
+    position: relative;
+    left: 150px;
+    bottom: 910px;
+    display:inline-block;
+    margin-top: 20px;
+    
+    
+}
+.hcontainer{
+    display: inline-block;
+    position:relative;
+    bottom:650px;
+    margin-top: 20px;
+    border: 1px solid rgb(248, 246, 246);
+    background-color: #f7f4f0ef;
+    list-style-type: none;
+}
+.header {
+    height: 50px;
+    width: 1360px;
+  padding: 20px 30px;
+  background: white;
+  color: #f1f1f1;
+}
+
+ </style>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header" id="myHeader">
+        <img src="D:\solution\img.png" height="60px" width="60px">
+      </div>
+    
+    <div class="sidebar">
+        <ul>
+        <li><a href="#"><i class="fa fa-fw fa-user"style="font-size:36px;"></i> Student</a></li>
+        <li><a href="#"><i class="fa fa-file-text-o" style="font-size:36px;"></i>Lesson plan</a></li>
+        <li><a href="#"><i class="fa fa-gear" style="font-size:36px;"></i>Setting</a></li>
+        </ul>
+      </div>
+    <div class="container">
+        <input id="inputField" type="url" placeholder="Insert url here">
+        <div class="container"><button id="upload">Upload</button></div>
+        </div>
+    </div>
+    <div class="videos">
+        <i class="fa fa-play" style="font-size:14px">Video</i>
+    </div>
+    
+</body>
+</html>
